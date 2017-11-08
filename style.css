@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.section {
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.background-color-platinum {
+    background: #E6E6E6;
+}
