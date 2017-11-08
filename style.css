@@ -24,6 +24,14 @@ a {
     padding: 10px 50px;
 }
 
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+} .nav .nav-item {
+    display: inline-block;
+}
+
 .no-margin {
     margin: 0;
 }
