@@ -4,17 +4,36 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .section {
     height: 100vh;
     padding: 0 20px;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 30px;
+    overflow: hidden;
+    background: #297373;
+    padding: 10px 50px;
 }
 
 .no-margin {
     margin: 0;
 }
 
+
+
 .text-bold {
     font-weight: bold;
+}
+
+.text-white {
+    color: white;
 }
 
 .background-color-platinum {
