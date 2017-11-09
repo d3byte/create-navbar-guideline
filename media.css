@@ -1,0 +1,11 @@
+@media (max-width:767px) {
+    .hidden-xs-down {
+        display: none;
+    }
+}
+
+@media (min-width:767px) {
+    .hidden-sm-up {
+        display: none;
+    }
+}
