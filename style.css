@@ -22,6 +22,14 @@ a {
     padding: 0 50px;
 }
 
+.navigation {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+} .navigation i {
+    font-size: 22px;
+}
+
 .nav {
     margin: 0;
     padding: 0;
