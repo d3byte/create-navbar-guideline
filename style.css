@@ -18,26 +18,32 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    min-height: 30px;
-    overflow: hidden;
     background: #297373;
-    padding: 10px 50px;
+    padding: 0 50px;
 }
 
 .nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    overflow: hidden;
+    box-sizing: border-box;
 } .nav .nav-item {
+    transition: 0.3s;
+    padding: 10px 30px;
+    min-width: 40px;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+} .nav-item:hover {
+    cursor: pointer;
+    border-color: white;
 }
 
 .no-margin {
     margin: 0;
-}
-
-.m-right-15 {
-    margin-right: 15px;
 }
 
 .text-bold {
