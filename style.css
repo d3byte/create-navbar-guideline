@@ -50,6 +50,29 @@ a {
     border-color: white;
 }
 
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+    overflow: hidden;
+    align-items: flex-end;
+    background: #297373;
+    padding: 5px 50px;
+} .menu-item {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+#menu-to-toggle {
+    display: none;
+}
+
+.border-bottom--1-white {
+    border-bottom: 1px solid #ccc;
+}
+
 .no-margin {
     margin: 0;
 }
